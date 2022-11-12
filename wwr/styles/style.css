@@ -1,0 +1,41 @@
+
+#content {
+    max-width: 1200px;
+}
+
+nav, a {
+    text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+header {
+    background-color: darkorange;
+}
+
+.book, .join {
+    background-color: cornflowerblue;
+}
+
+.book:hover, .join:hover {
+    background-color: goldenrod;
+}
+
