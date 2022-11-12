@@ -39,3 +39,17 @@ header {
     background-color: goldenrod;
 }
 
+.icon {
+    width: 80px;
+}
+
+nav a {
+    text-align: center;
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 2.0em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
