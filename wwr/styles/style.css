@@ -1,15 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat+Brush&family=Oswald:wght@300;400;600&family=Rock+Salt&display=swap');
 
 
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+}
 
+.home-title {
+    font-size: .8em;
+    margin-top: 10px;
+}
 
 .book, .join {
     font-size: 18px;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    margin-top: 50px;
+
 }
 
 .msg p {
     font-size: .8em;
+    padding-bottom: 15px;
 }
 
 #content {
@@ -33,7 +45,7 @@ nav, a {
 #hero-msg h1 {
     text-align: center;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 #hero-msg h4 {
@@ -60,7 +72,14 @@ main section {
 
 body {
     background-color: cornflowerblue;
-    font-family:'Rock Salt', 'Bradley Hand', sans-serif
+    font-family:'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -68,7 +87,9 @@ header {
 }
 
 .book, .join {
-    background-color: cornflowerblue;
+    background-color: rgb(90, 163, 231);
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -77,6 +98,7 @@ header {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 nav a {
@@ -84,8 +106,34 @@ nav a {
     color: darkgreen;
     text-decoration: none;
     font-size: 2.0em;
+    padding: 35px;
 }
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px;
+}
+
+main section img {
+    box-sizing: border-box;
 }
