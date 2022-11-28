@@ -1,19 +1,66 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
 body {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
-    text-align: center;
-    display: grid;
-  }
 
-.logo_box {
-    width:auto;
-    padding: 15px;
-    border: 3px solid red;
+    background-image: url("../images/capilla.png");
+    background-repeat: no-repeat;  
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #99c24d;
+ 
 }
 
-img {
-    max-width: 10%;
-    height: auto;
+.container {
+   
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(15, 50px);
+    position: relative;
+}
+
+.questions {
+    position: absolute;
+    color: #fdfdfd;
+    font-size: 20px;
+    grid-column: 4/9;
+    grid-row: 15;
+    align-content: center;
+}
+
+.welcome {
+    position: absolute;
+    color: #fffefd;
+    font-family: serif sans-serif;
+    font-size: 25px;
+    grid-column: 4/ span 2;
+    grid-row: 7;
+    text-align: center;
+}
+
+
+.button1 {
+
+    background-color: #99c24d;
+    border-radius: 10px;
+    border: 4px double #2e4057;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+    color: hwb(210 98% 1%);
+    font-weight: bold;
+    padding: 2px;
+    width: 300px;
+    cursor: pointer;
+    grid-column: 4 / span 2;
+    grid-row: 9;
+}
+
+.container.button1 {
+    position: relative;
+    grid-column: 4 / span 2;
+    grid-row: 9;
 }
