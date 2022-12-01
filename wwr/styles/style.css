@@ -233,6 +233,52 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+
+.content {                                  /*Adition pag2 */
+ 
+
+}
+
+.river-1 {
+    display: grid;
+    grid-template-columns: 5% 35% 5% auto 5%;
+    grid-template-rows: repeat(3, 30px 30px 50px 30px 50px);
+    position: relative;
+ 
+  /* width: 400px; */
+ 
+}
+
+.river-1 img {
+
+    grid-column: 2 / span 2;
+    grid-row: 2;
+
+}
+
+.river-1 h2 {
+    font-size: 25px;
+    grid-column: 4;
+    grid-row: 2;
+    text-align: center;
+}
+
+.river-1 p {
+     grid-column: 2;
+     grid-row: 3 / span 11;
+     font-size: 20px;
+     background-color: wheat;
+     border-radius: 7px;
+     padding: 10px;
+
+}
+
+.river-1 p {
+    grid-column: 3 / span 2;
+    
+   
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
