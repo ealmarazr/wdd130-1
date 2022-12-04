@@ -20,8 +20,8 @@
                     <a href="contactus.html">Contact Us</a>
                 </nav>
             </header>
-            <div id="feedback"></div>
-                <form action="/my-handling-form-page" method="post">
+            <div id="feedback"></div> 
+                <form action="feedback" method="post">
                     <ul>
                         <li>
                             <label for="name">Name:</label>
@@ -36,7 +36,7 @@
                             <textarea  id="msg" name="user_name"></textarea>
                         </li>
                     </ul>
-                    <button class="favorite styled"  type="button">
+                    <button  type="submit">
                         Send message
                     </button>
                 </form>
@@ -57,6 +57,8 @@
                 </div>
             </footer>
         </div>
+   
+   
         <script>
             // get the feedback div element so we can do something with it.
             const feedbackElement = document.getElementById('feedback');
