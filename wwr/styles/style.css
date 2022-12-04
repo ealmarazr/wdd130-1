@@ -278,8 +278,39 @@ main section img {
 
 }
 
+#feedback {
+    background-color: antiquewhite;
+    position:absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    padding: .5em;
+    display: none;
+}
 
+.moveDown {
+    margin-top: 3em;
+}
 
+button {
+    display: inline-block;
+    background-color: #048BA8;
+    border-radius: 10px;
+    border: 4px double #99C24D;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
