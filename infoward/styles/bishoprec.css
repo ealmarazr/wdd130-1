@@ -1,0 +1,82 @@
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 200px repeat(10, 50px);
+    grid-template-columns: 200px repeat(5, 100px) auto;
+    padding: 5px;
+    background-color: rgb(241, 92, 22);
+    position: relative;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 200px;
+    position: absolute;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    
+}
+
+
+.navbar {
+    grid-column: 1;
+    grid-row: 3;
+    position: relative;
+    list-style-type: none;
+
+  
+}
+.header .valley-picture {
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+}
+.header .valley-picture {
+    position: relative;
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    max-height: 200px;
+    z-index: 1;
+ 
+
+}
+
+.header .organizacion {
+    font-size: 2em;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+    z-index: 2;
+    text-align: center;
+ 
+}
+
+
+.footer {
+    grid-column: 5 / span 8;
+    grid-row: 10;
+    position: absolute;
+    align-self: auto;
+}
+
+.content {
+    grid-column: 2 / span 5;
+    grid-row: 2 / auto;
+    position: absolute;
+}
+
+.content {
+    min-width: 45vw;
+    width: auto;
+    flex: 1;
+    display: grid;
+    border-collapse: collapse;
+    grid-template-columns: 
+        minmax(150px, 45vm)
+        minmax(150px, 3fr)
+        minmax(150px, 1.67fr)
+        minmax(150px, 1.67fr);
+}

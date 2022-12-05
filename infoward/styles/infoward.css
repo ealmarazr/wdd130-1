@@ -68,14 +68,9 @@ body {
     grid-row: 9;
 }
 
-header {
-    background-color: darkorange;
+.header {
     display: grid;
-    grid-template-columns: 150px auto;
-    padding: 2;
+    background-color: darkorange;
 }
 
-.logo {
-    width: 100px;
-    height: 200px;
-}
+
