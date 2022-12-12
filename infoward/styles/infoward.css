@@ -85,23 +85,20 @@ body {
 
 .footer {
 
-    display: grid;
-    grid-template-columns: 450px 70px 250px  1fr;
+  /*  display: grid;*/
+    display: flex;
+ /*   grid-template-columns: 450px 70px 250px  1fr; */
+ /*   grid-template-columns: 1fr 70px 250px 1fr; */
+    width: 1200px;
     background-color: #99c24d;
-    vertical-align: bottom;
+   justify-content: center;
+
 
 }
 
-.footer .copy-right {
-    grid-column: 1 ;
-    text-align: center;
+.footer div {
+    flex-direction: row;
+    padding: 10px;
 
-}
-
-.footer .social {
-    grid-column: 3;
-}
-
-.footer .copy-right a{
-    grid-column: 2;
+   
 }
