@@ -79,7 +79,7 @@
 
 .footer {
     display:grid;
-    grid-template-columns: 350px 20px  350px 1fr;
+    grid-template-columns: 350px 5px 70px 5px 350px 1fr;  
     grid-template-rows: 100px;
     grid-row: 9;
     grid-column: 2;
@@ -96,11 +96,13 @@
 }
 
 .footer .social {
-    grid-column: 3;
-    grid-row: 1;
-    
-    
+    grid-column: 5;
+    grid-row: 1; 
 }
+.footer .site-plan{
+    grid-column: 3;
+} 
+
     
 
 .content {
