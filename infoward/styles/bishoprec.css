@@ -1,23 +1,11 @@
-
-:root {
-    /* values colors */
-    --primary-color: #F18F01  ;
-    --secondary-color: #048BA8 ;
-    --accent1-color: #2E4057;
-    --accent2-color: #99C24D;
-  
-    /* font(s) */
-    --heading-font: Serif;
-    --paragraph-font: Roboto, Helvetica, sans-serif;
-
-}    
-
+body {
+    background-color: #F18F01;
+}
 .wrapper {
     display: grid;
     grid-template-rows: 200px repeat(10, 100px);
     grid-template-columns: 200px repeat(2, 1fr);
-    padding: 5px;
-    background-color: #F18F01;
+    padding: 5px;  
     position: relative;
 }
 
@@ -35,24 +23,15 @@
     
 }
 
+
 .navbar {
     grid-column: 1;
     grid-row: 3;
-    width: 200px;
-    text-align: center;
-    text-decoration: none;
+    position: relative;
     list-style-type: none;
-    display: block;
-    color: white;
-    font-size: 20px;
+
+  
 }
-
-.navbar a:hover {
-    background-color: #99c24d;   
-}
-
-
-
 .header .valley-picture {
     display: grid;
     grid-template-columns: 33%  auto;
@@ -78,15 +57,9 @@
  
 }
 
-#footer {
-    position:fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 .footer {
     display:grid;
-    grid-template-columns: 350px 5px 70px 5px 350px 1fr;
+    grid-template-columns: 350px 5px 70px 5px 350px 1fr;  
     grid-template-rows: 100px;
     grid-row: 9;
     grid-column: 2;
@@ -97,21 +70,21 @@
 
 .footer p {
 
-    grid-column: 4;
+    grid-column: 1;
     grid-row: 1;
-  
+    position: absolute;
 }
 
 .footer .social {
     grid-column: 5;
-    grid-row: 1;
-    
-    
+    grid-row: 1; 
 }
-
 .footer .site-plan{
     grid-column: 3;
 } 
+
+    
+
 .content {
     grid-column: 2 / span 5;
     grid-row: 2 / auto;
@@ -119,27 +92,36 @@
 
 }
 
-.content {
-    min-width: 45vw;
-    width: auto;
-    flex: 1;
-    display: grid;
+
+
+#callings{
+    font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    grid-template-columns: 
-        minmax(150px, 45vm)
-        minmax(150px, 3fr)
-        minmax(150px, 1.67fr)
-        minmax(150px, 1.67fr);
+    width: 100%;
 }
 
+#callings td, #callings th{
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+#callings th{
+    color: wheat;
+}
+#callings tr:hover{
+    background-color: #99c24d;
+}
+
+#callings th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #048BA8;
+}
 @media screen and (max-width: 900px) {
      nav, footer {
         flex-direction: column;
-    }
-
- 
-    footer {
-        margin-top: 25px;
     }
 
 }
