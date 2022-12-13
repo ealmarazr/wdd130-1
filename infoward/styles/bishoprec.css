@@ -27,11 +27,20 @@ body {
 .navbar {
     grid-column: 1;
     grid-row: 3;
-    position: relative;
-    list-style-type: none;
-
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    font-size: 20px;
+    
   
 }
+
+.navbar a:hover {
+    background-color: #99c24d;   
+}
+
 .header .valley-picture {
     display: grid;
     grid-template-columns: 33%  auto;
