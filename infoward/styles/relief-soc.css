@@ -123,11 +123,7 @@ body {
     flex: 1;
     display: grid;
     border-collapse: collapse;
-    grid-template-columns: 
-        minmax(150px, 45vm)
-        minmax(150px, 3fr)
-        minmax(150px, 1.67fr)
-        minmax(150px, 1.67fr);
+ 
 }
 
 #callings{
